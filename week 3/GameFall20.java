@@ -18,7 +18,7 @@ public class GameFall20 extends Applet implements Runnable, KeyListener{
 	public static final int UP = KeyEvent.VK_UP;
 	public static final int DOWN = KeyEvent.VK_DOWN;
 	public static final int LEFT = KeyEvent.VK_LEFT;
-	public static final int RIGHT = KeyEvent.VK_DOWN;
+	public static final int RIGHT = KeyEvent.VK_RIGHT;
 	
 	Rect r1 = new Rect(10,10,200,100);
 	Rect r2 = new Rect(100,500,100,400);
