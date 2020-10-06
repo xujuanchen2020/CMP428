@@ -69,8 +69,8 @@ public class Tank {
 		for (int i=0; i < x_points.length; i++) {
 			_x = body_x[i];
 			_y = body_y[i];
-			x_points[i] = (int) (body_x[i]*cos[A] - body_y[i]*sin[A]) + x ;
-			y_points[i] = (int) (body_y[i]*cos[A] + body_x[i]*sin[A]) + y ;
+			x_points[i] = (int) (_x*cos[A] - _y*sin[A]) + x ;
+			y_points[i] = (int) (_y*cos[A] + _x*sin[A]) + y ;
 		}
 		g.drawPolygon(x_points, y_points, 4);
 		
